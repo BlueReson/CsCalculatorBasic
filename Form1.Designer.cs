@@ -137,11 +137,12 @@
             // 
             bDiff.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             bDiff.Location = new Point(264, 310);
-            bDiff.Name = "bDiff";
+            bDiff.Name = "bDivide";
             bDiff.Size = new Size(49, 56);
             bDiff.TabIndex = 11;
             bDiff.Text = "/";
             bDiff.UseVisualStyleBackColor = true;
+            bDiff.Click += bDiff_Click;
             // 
             // bMultiply *
             // 
@@ -163,6 +164,7 @@
             bPercent.TabIndex = 13;
             bPercent.Text = "%";
             bPercent.UseVisualStyleBackColor = true;
+            bPercent.Click += bPercent_Click;
             // 
             // Form1
             // 

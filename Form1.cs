@@ -50,7 +50,7 @@ namespace CsCalculatorBasic
             textBox3.Text = min.ToString();
         }
 
-        private void bDivide_Click(object sender, EventArgs e)
+        private void bDiff_Click(object sender, EventArgs e)
         {
             double val1 = Convert.ToDouble(textBox1.Text);
             double val2 = Convert.ToDouble(textBox2.Text);
