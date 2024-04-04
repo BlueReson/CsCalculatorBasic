@@ -111,7 +111,7 @@
             textBox3.Size = new Size(188, 29);
             textBox3.TabIndex = 6;
             // 
-            // bPlus
+            // bPlus +
             // 
             bPlus.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             bPlus.Location = new Point(154, 310);
@@ -122,7 +122,7 @@
             bPlus.UseVisualStyleBackColor = true;
             bPlus.Click += bPlus_Click;
             // 
-            // bMinus
+            // bMinus -
             // 
             bMinus.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             bMinus.Location = new Point(209, 310);
@@ -131,9 +131,9 @@
             bMinus.TabIndex = 10;
             bMinus.Text = "-";
             bMinus.UseVisualStyleBackColor = true;
-            bMinus.Click += button1_Click_1;
+            bMinus.Click += bMinus_Click;
             // 
-            // bDiff
+            // bDiff /
             // 
             bDiff.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             bDiff.Location = new Point(264, 310);
@@ -143,7 +143,7 @@
             bDiff.Text = "/";
             bDiff.UseVisualStyleBackColor = true;
             // 
-            // bMultiply
+            // bMultiply *
             // 
             bMultiply.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             bMultiply.Location = new Point(319, 310);
@@ -152,7 +152,7 @@
             bMultiply.TabIndex = 12;
             bMultiply.Text = "*";
             bMultiply.UseVisualStyleBackColor = true;
-            bMultiply.Click += button4_Click;
+            bMultiply.Click += bMultiply_Click;
             // 
             // bPercent
             // 

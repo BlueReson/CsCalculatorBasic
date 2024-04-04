@@ -31,43 +31,6 @@ namespace CsCalculatorBasic
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double val1 = Convert.ToDouble(textBox1.Text);
-            double val2 = Convert.ToDouble(textBox2.Text);
-            double sum = val1 + val2;
-
-            textBox3.Text = sum.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double val1 = Convert.ToDouble(textBox1.Text);
-            double val2 = Convert.ToDouble(textBox2.Text);
-            double diff = val1 - val2;
-
-            textBox3.Text = diff.ToString();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            double val1 = Convert.ToDouble(textBox1.Text);
-            double val2 = Convert.ToDouble(textBox2.Text);
-            double sum = val1 + val2;
-
-            textBox3.Text = sum.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double val1 = Convert.ToDouble(textBox1.Text);
-            double val2 = Convert.ToDouble(textBox2.Text);
-            double sum = val1 + val2;
-
-            textBox3.Text = sum.ToString();
-        }
-
         private void bPlus_Click(object sender, EventArgs e)
         {
             double val1 = Convert.ToDouble(textBox1.Text);
@@ -76,5 +39,44 @@ namespace CsCalculatorBasic
 
             textBox3.Text = sum.ToString();
         }
+
+
+        private void bMinus_Click(object sender, EventArgs e)
+        {
+            double val1 = Convert.ToDouble(textBox1.Text);
+            double val2 = Convert.ToDouble(textBox2.Text);
+            double min = val1 - val2;
+
+            textBox3.Text = min.ToString();
+        }
+
+        private void bDivide_Click(object sender, EventArgs e)
+        {
+            double val1 = Convert.ToDouble(textBox1.Text);
+            double val2 = Convert.ToDouble(textBox2.Text);
+            double division = val1 / val2;
+
+            textBox3.Text = division.ToString();
+        }
+
+        private void bMultiply_Click(object sender, EventArgs e)
+        {
+            double val1 = Convert.ToDouble(textBox1.Text);
+            double val2 = Convert.ToDouble(textBox2.Text);
+            double prod= val1 * val2;
+
+            textBox3.Text = prod.ToString();
+        }
+
+        private void bPercent_Click(object sender, EventArgs e)
+        {
+            double val1 = Convert.ToDouble(textBox1.Text);
+            double val2 = Convert.ToDouble(textBox2.Text);
+            double perc = (val1 / val2)*100;
+
+            textBox3.Text = perc.ToString();
+        }
+
+        
     }
 }
